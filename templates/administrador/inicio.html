@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+
+{% block encabezado %}
+    {% include "encabezado.html" %}
+{% endblock %}
+
+{% block menu %}
+    {% include "administrador/menu.html" %}
+{% endblock %}
+
+{% block contenido %}
+    <br>
+    <h3 class="text-center fw-bold">Bienvenido Modulo Administrador</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, iusto saepe, harum quo minima, libero odit autem veniam eveniet magnam impedit exercitationem. Aspernatur velit labore eveniet. Est quas reiciendis velit.</p>
+    <ul>
+        <li>Gestionar servicio</li>
+        <li>Gestionar Reportes</li>
+    </ul>
+{% endblock %}
+
+{% block piePagina %}
+    {% include "piePagina.html" %}
+{% endblock %}

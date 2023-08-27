@@ -1,0 +1,83 @@
+{% extends "index.html" %}
+
+{% block encabezado %} 
+    {% include "encabezado.html"%} 
+{% endblock %} 
+
+{% block menu %} 
+    {% include "menu.html" %} 
+{% endblock %} 
+
+{%block contenido %}
+<br />
+<h3 class="text-center fw-bold">Servicios</h3>
+<div class="row" style="margin-left: 10px;">
+  <div class="col-md-6">
+    <div class="card" style="width: 400px; margin: 10px;">
+      <img
+        class="card-img-top"
+        src="../static/img/lavado_carro.png"
+        alt="Card image"
+      />
+      <div class="card-body">
+        <h4 class="card-title">Lavado de Carros</h4>
+        <p class="card-text">
+          Lavado con agua a precion no conductora de electricidad, y limpieza
+          interior del vehiculo para que su carro vuelva a tener la misma
+          apareciencia de concesionario
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card" style="width: 400px; margin: 10px;">
+      <img
+        class="card-img-top"
+        src="../static/img/lavado_moto.png"
+        alt="Card image"
+      />
+      <div class="card-body">
+        <h4 class="card-title">Lavado de Motos</h4>
+        <p class="card-text">
+          Lavado con agua a precion no conductora de electricidad para que su
+          moto quede como nueva
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card" style="width: 400px; margin: 10px;">
+      <img
+        class="card-img-top"
+        src="../static/img/no-contexto.jpg"
+        alt="Card image"
+      />
+      <div class="card-body">
+        <h4 class="card-title">Lavado de Niños</h4>
+        <p class="card-text">
+          Si trae a su niño y este no se ha bañado, nosotros le daremos una ducha con manguera a precion para que su hijo quede como nuevo
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card" style="width: 400px; margin: 10px;">
+      <img
+        class="card-img-top"
+        src="../static/img/carne-novegana.jpg"
+        alt="Card image"
+      />
+      <div class="card-body">
+        <h4 class="card-title">almuerzos con Carne especial</h4>
+        <p class="card-text">
+          Deliciosos almuerzos con carne no vegana, libre de gluten conservantes azucar sodio y carne
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %} 
+{% block piePagina %} 
+    {% include "piePagina.html" %} 
+{% endblock
+%}
